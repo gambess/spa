@@ -23,6 +23,9 @@
         <link rel="stylesheet" href="css/main.css">    
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="css/bodega8.css">
+        
+        <!--Floating WhatsApp css-->
+        <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
 
     </head>
 
@@ -167,7 +170,7 @@
                             <div class="featured-content">
                                 <div class="icon-o"><i class="lni-briefcase"></i></div>
                                 <h4>100% Garantia Calidad</h4>
-                                <p>Trabajamos con los mejores productos y distribuidores a nivel nacional, revise nuestra sección de <a href="#clients">marcas</a>.</p>
+                                <p>Trabajamos con los mejores productos y distribuidores a nivel nacional, revise nuestra sección de marcas.</p>
                             </div>
                         </div>
                     </div>
@@ -446,8 +449,12 @@
                         </div>
                         <br />
                         <div class="text-center">
-                            <h4>+56 972801200</h4>
-                                <h4>58 2284702</h4>
+                            <h4><a href="tel:+56582284702">58 2284702</a></h4>
+                            <h4><a href="tel:+56972801200">+56 972801200</a></h4> 
+                        </div>
+                        <br />
+                        <div class="cta-trial text-center">
+                            <p>Tambien puedes llamarnos o escribirnos un whatsapp al número <a href="https://wa.me/+56972801200" target="_blank">+56972801200</a>, o por facebook messenger o instagram messenger</p>
                         </div>
                     </div>
                 </div>
@@ -471,8 +478,8 @@
                                         <i class="lni lni-coffee-cup"></i>
                                     </div>
                                     <div class="fact-count">
-                                        <h3><span class="counter">600</span></h3>
-                                        <h4>Productos Despachados</h4>
+                                        <h3><span class="counter">3024</span>+</h3>
+                                        <h4>Productos Entregados</h4>
                                     </div>
                                 </div>
                             </div>
@@ -484,7 +491,7 @@
                                         <i class="lni lni-user"></i>
                                     </div>
                                     <div class="fact-count">
-                                        <h3><span class="counter">1000</span>+</h3>
+                                        <h3><span class="counter">1600</span>+</h3>
                                         <h4>Clientes Activos</h4>
                                     </div>
                                 </div>
@@ -495,8 +502,8 @@
                                         <i class="lni lni-heart"></i>
                                     </div>
                                     <div class="fact-count">
-                                        <h3><span class="counter">689</span>+</h3>
-                                        <h4>Me gusta</h4>
+                                        <h3><span class="counter">653</span>+</h3>
+                                        <h4>Likes </h4>
                                     </div>
                                 </div>
                             </div>
@@ -504,10 +511,10 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="about-thumb">
-                            <img src="img/about/img-1.jpg" alt="">
+                            <img src="img/about/tarjeta_old.jpg" alt="">
                         </div>
                         <div class="about-thumb-2">
-                            <img src="img/about/img-2.jpg" alt="">
+                            <img src="img/about/tarjeta.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -538,11 +545,11 @@
                                                 <input type="text" class="form-control" name="phone" placeholder="Teléfono/Celular">
                                             </div>
                                         </div>
-                                        <!--                                        <div class="col-12 form-line">
-                                                                                    <div class="form-group">
-                                                                                        <input type="email" class="form-control" name="email" placeholder="Email">
-                                                                                    </div> 
-                                                                                </div>-->
+                                        <div class="col-12 form-line">
+                                            <div class="form-group">
+                                                  <input type="email" class="form-control" name="email" placeholder="Email">
+                                            </div> 
+                                        </div>
                                         <div class="col-12 form-line">
                                             <div class="form-group">
                                                 <input type="text" class="form-control" name="address" placeholder="Dirección/Referencia">
@@ -665,14 +672,14 @@
                                     <div class="contact-info">
                                         <i class="lni-star"></i>
                                         <h5>E-mail</h5>
-                                        <p>contacto@aricaguau.cl</p>
+                                        <p>pedidos@aricaguau.cl</p>
                                     </div>
                                     <!-- Content Info -->
                                     <div class="contact-info">
                                         <i class="lni-phone"></i>
                                         <h5>Teléfonos</h5>
-                                        <p>58 2284702</p>
-                                        <p>+56 972801200</p>
+                                        <p><a href="tel:+56582284702">58 2284702</a></p>
+                                        <p><a href="tel:+56972801200">+56 972801200</a></p>
                                     </div>
                                     <!-- Icon -->
                                     <ul class="footer-social">
@@ -739,10 +746,10 @@
                             <div class="widget">
                                 <h3 class="block-title">Acceso Directo</h3>
                                 <ul class="menu">
-                                    <li><a href="#">Marcas</a></li>
-                                    <li><a href="#">Catálogo</a></li>
-                                    <li><a href="#">FonoPedido</a></li>
-                                    <li><a href="#">Contáctanos</a></li>
+                                    <li><a href="#clients">Marcas</a></li>
+                                    <li><a href="#portfolios">Catálogo</a></li>
+                                    <li><a href="#subcribe">FonoPedido</a></li>
+                                    <li><a href="#contact">Contáctanos</a></li>
                                     <!--<li><a href="#">Site Map</a></li>-->
                                 </ul>
                             </div>
@@ -755,11 +762,11 @@
                                         <strong>Dirección :</strong> <span>Av. Alcalde Manuel Castillo Ibaceta 3431, Bodega 8, Terminal Asoagro, Arica - Chile</span>
                                     </li>
                                     <li>
-                                        <strong>Celular :</strong> <span>+56 972801200</span>
-                                        <strong>Teléfono :</strong> <span>58 2284702</span>
+                                        <strong>Teléfono :</strong> <span><a href="tel:+56582284702">58 2284702</a></span>
+                                        <strong>Celular :</strong> <span><a href="tel:+56972801200">+56 972801200</a></span>
                                     </li>
                                     <li>
-                                        <strong>E-mail :</strong> <span><a href="#">contacto@aricaguau.cl</a></span>
+                                        <strong>E-mail :</strong> <span><a href="#">pedidos@aricaguau.cl</a></span>
                                     </li>
                                 </ul> 
                             </div>
@@ -788,12 +795,12 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="site-info float-left">
-                                <p>Plantilla adaptada por <a href="http://gambessit.cl" rel="nofollow">Gambess IT</a> para AricaGuau E.I.R.L</p>
+                                <p>Plantilla reescrita por <a href="http://gambessit.cl" rel="nofollow">Gambess I.T. E.I.R.L</a> para Arica Guau E.I.R.L</p>
                             </div>              
                             <div class="float-right">  
                                 <ul class="nav nav-inline">
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#">Que es Gambess IT</a>
+                                        <a class="nav-link active" href="http://gambessit.cl">Que es Gambess IT</a>
                                     </li>
                                     <!--                  <li class="nav-item">
                                                         <a class="nav-link" href="#">TOS</a>
@@ -830,7 +837,10 @@
             </div>
         </div>    
 
-
+        <!--Div where the WhatsApp will be rendered-->
+        <div id="WAButton"></div>
+        
+        
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
         <script src="js/jquery-min.js"></script>
         <script src="js/popper.min.js"></script>
@@ -851,6 +861,8 @@
         <script src="js/form-validator.min.js"></script>
         <script src="js/contact-form-script.js"></script>   
         <script src="js/main.js"></script>
+        <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+        <script src="js/whatsapp.js"></script>
 
     </body>
 </html>
