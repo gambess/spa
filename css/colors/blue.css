@@ -80,7 +80,7 @@ a:hover{
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
 	background: #1AB7D8;
 }
-#subscribe .sub-item-box .icon-box i{
+#fono-pedido .sub-item-box .icon-box i{
 	color: #1AB7D8;
 }
 #blog .blog-item-text h3 a:hover{
@@ -125,7 +125,7 @@ footer .menu li a:hover{
 #google-map{
 	border-color: #1AB7D8;
 }
-#subscribe form input:focus{
+#fono-pedido form input:focus{
 	border-color: #1AB7D8;
 }
 #copyright p a:hover{

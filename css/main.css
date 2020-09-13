@@ -2091,34 +2091,34 @@ textarea {
 /* ==========================================================================
   19. Subscribe Style
   ========================================================================== */
-#subscribe {
+#fono-pedido {
   background: url(../img/bg/bg-subs.jpg);
   position: relative;
 }
 
-.subscribe-form .sub-title {
+.fono-pedido-form .sub-title {
   margin-bottom: 30px;
 }
 
-.subscribe-form .sub-title h3 {
+.fono-pedido-form .sub-title h3 {
   font-size: 30px;
   margin-bottom: 10px;
   position: relative;
   font-weight: 500;
 }
 
-.subscribe-form .form-wrapper {
+.fono-pedido-form .form-wrapper {
   background-color: #ffffff;
   padding: 58px 40px;
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.subscribe-form .form-wrapper .form-group {
+.fono-pedido-form .form-wrapper .form-group {
   margin-bottom: 0px;
 }
 
-.subscribe-form .form-wrapper .form-control {
+.fono-pedido-form .form-wrapper .form-control {
   display: block;
   width: 100%;
   font-size: 14px;
@@ -2133,7 +2133,7 @@ textarea {
   background-clip: padding-box;
 }
 
-.subscribe-form .form-wrapper .form-control:focus {
+.fono-pedido-form .form-wrapper .form-control:focus {
   color: #212121;
   background-color: #fff;
   border-color: #56FF1C;
@@ -2141,41 +2141,41 @@ textarea {
   outline: 0;
 }
 
-.subscribe-form .form-submit .btn {
+.fono-pedido-form .form-submit .btn {
   width: 100%;
   padding: 13px 30px;
 }
 
-#subscribe .sub-item-box {
+#fono-pedido .sub-item-box {
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 4px;
   background: #fff;
 }
 
-#subscribe .sub-item-box .icon-box {
+#fono-pedido .sub-item-box .icon-box {
   float: left;
 }
 
-#subscribe .sub-item-box .icon-box i {
+#fono-pedido .sub-item-box .icon-box i {
   font-size: 30px;
   color: #56FF1C;
 }
 
-#subscribe .sub-item-box .text-box {
+#fono-pedido .sub-item-box .text-box {
   margin-left: 60px;
 }
 
-#subscribe .sub-item-box .text-box h4 {
+#fono-pedido .sub-item-box .text-box h4 {
   font-size: 16px;
   font-weight: 500;
 }
 
-#subscribe .sub-item-box .text-box p {
+#fono-pedido .sub-item-box .text-box p {
   margin-bottom: 0;
 }
 
-#subscribe .sub-item-box:last-child {
+#fono-pedido .sub-item-box:last-child {
   margin-bottom: 0;
 }
 

@@ -74,10 +74,10 @@
   .counters .facts-item {
     margin-bottom: 30px;
   }
-  .subscribe-form {
+  .fono-pedido-form {
     margin-bottom: 30px;
   }
-  .subscribe-form .sub-title h3 {
+  .fono-pedido-form .sub-title h3 {
     font-size: 22px;
   }
   .pricing-table .pricing-details ul li {
@@ -198,7 +198,7 @@
   #features .box-item .text h4 {
     font-size: 13px;
   }
-  .subscribe-form {
+  .fono-pedido-form {
     margin-bottom: 30px;
   }
   #blog .blog-item-wrapper {
@@ -330,16 +330,16 @@
   .pricing-tables .pricing-table {
     margin-bottom: 30px;
   }
-  .subscribe-form {
+  .fono-pedido-form {
     margin-bottom: 30px;
   }
-  .subscribe-form .sub-title h3 {
+  .fono-pedido-form .sub-title h3 {
     font-size: 20px;
   }
-  .subscribe-form .form-wrapper {
+  .fono-pedido-form .form-wrapper {
     padding: 30px 20px;
   }
-  #subscribe .sub-item-box .text-box h4 {
+  #fono-pedido .sub-item-box .text-box h4 {
     font-size: 15px;
   }
   #blog .blog-item-wrapper {
